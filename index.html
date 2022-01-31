@@ -199,12 +199,14 @@
       <!-- Banner Section Start -->
       <div id="banner" class="banner--section pd--80-0">
         <!-- Banner Slider Start -->
-        <div class="banner--slider owl-carousel" data-owl-dots="true">
+        <div
+          class="banner--slider owl-carousel"
+          data-owl-dots="true"
+          data-owl-loop="true"
+          data-owl-autoplay="true"
+        >
           <!-- Banner Item Start -->
-          <div
-            class="banner--item"
-            data-bg-img="img/banner-img/slider-bg-01.jpg"
-          >
+          <div class="banner--item" data-bg-img="img/used/1.png">
             <div class="vc--parent">
               <div class="vc--child">
                 <div class="container">
@@ -212,7 +214,59 @@
                     <!-- Banner Content Start -->
                     <div class="banner--content col-md-8">
                       <h1>
-                        Take ultimate control of
+                        Take ultimate control of <br />
+                        <strong> your home</strong>
+                      </h1>
+
+                      <p>
+                        With our smart home automation products, you can control
+                        each aspect of your house, from your lights and TV to
+                        your Garage door and curtains.
+                      </p>
+                    </div>
+                    <!-- Banner Content End -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Banner Item End -->
+          <!-- Banner Item Start -->
+          <div class="banner--item" data-bg-img="img/used/2.png">
+            <div class="vc--parent">
+              <div class="vc--child">
+                <div class="container">
+                  <div class="row">
+                    <!-- Banner Content Start -->
+                    <div class="banner--content col-md-8">
+                      <h1>
+                        Take ultimate control of <br />
+                        <strong> your home</strong>
+                      </h1>
+
+                      <p>
+                        With our smart home automation products, you can control
+                        each aspect of your house, from your lights and TV to
+                        your Garage door and curtains.
+                      </p>
+                    </div>
+                    <!-- Banner Content End -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Banner Item End -->
+          <!-- Banner Item Start -->
+          <div class="banner--item" data-bg-img="img/used/3.png">
+            <div class="vc--parent">
+              <div class="vc--child">
+                <div class="container">
+                  <div class="row">
+                    <!-- Banner Content Start -->
+                    <div class="banner--content col-md-8">
+                      <h1>
+                        Take ultimate control of <br />
                         <strong> your home</strong>
                       </h1>
 
@@ -237,73 +291,55 @@
           <div class="container">
             <div class="row">
               <div class="col-md-4 col-md-offset-8">
-                <form action="sendmail.php" method="post">
-                  <h2 class="h4 text-center">Get A Free Quote</h2>
-
-                  <div class="status"></div>
-
-                  <div class="row">
-                    <div class="col-sm-6">
-                      <div class="form-group">
-                        <input
-                          type="text"
-                          name="name"
-                          placeholder="Your Name"
-                          class="form-control"
-                          required
-                        />
-                      </div>
-                    </div>
-
-                    <div class="col-sm-6">
-                      <div class="form-group">
-                        <input
-                          type="tel"
-                          name="tel"
-                          placeholder="Telephone"
-                          class="form-control"
-                        />
-                      </div>
-                    </div>
-                  </div>
-
+                <form action="form.php" method="post" class="hero-form">
                   <div class="form-group">
+                    <label for="Name">Full Name</label>
                     <input
-                      type="email"
-                      name="email"
-                      placeholder="E-mail Address"
+                      type="text"
                       class="form-control"
+                      id="Name"
+                      aria-describedby="Full Name"
+                      name="name"
                       required
                     />
                   </div>
-
                   <div class="form-group">
-                    <label for="quoteFile">
-                      <span>Atach Photo</span>
-                      <input
-                        type="file"
-                        name="file"
-                        class="form-control"
-                        id="quoteFile"
-                      />
-                      <span><i class="fa fa-paperclip"></i>Choose File</span>
-                      <span class="file-status">File Name</span>
-                    </label>
-                  </div>
-
-                  <div class="form-group">
-                    <textarea
-                      name="message"
-                      placeholder="Problem In Details"
+                    <label for="Phone">Phone Number</label>
+                    <input
+                      type="text"
                       class="form-control"
+                      id="Phone"
+                      aria-describedby="Phone"
+                      name="phone"
                       required
-                    ></textarea>
+                    />
                   </div>
-
-                  <input type="hidden" name="submitType" value="ajax" />
-
-                  <button type="submit" class="btn btn-default">
-                    Send Request
+                  <div class="form-group">
+                    <label for="Email">Email Address</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="Email"
+                      aria-describedby="email"
+                      name="email"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="Message">Message</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="Message"
+                      aria-describedby="Message"
+                      name="message"
+                    />
+                  </div>
+                  <button
+                    type="submit"
+                    name="sendemail2"
+                    class="btn btn-default btn-call-bck w-100"
+                  >
+                    Submit
                   </button>
                 </form>
               </div>
@@ -499,7 +535,7 @@
             <!-- Feature Item Start -->
             <div class="feature--item col-md-3 col-xs-6 col-xxs-12">
               <div class="icon">
-                <img src="img/features-img/icon-01.png" alt="" data-rjs="2" />
+                <img src="img/used/Curated-Solutions.png" alt="" data-rjs="2" />
               </div>
 
               <div class="title">
@@ -519,7 +555,7 @@
             <!-- Feature Item Start -->
             <div class="feature--item col-md-3 col-xs-6 col-xxs-12">
               <div class="icon">
-                <img src="img/features-img/icon-02.png" alt="" data-rjs="2" />
+                <img src="img/used/Managed-Centrally.png" alt="" data-rjs="2" />
               </div>
 
               <div class="title">
@@ -539,7 +575,7 @@
             <!-- Feature Item Start -->
             <div class="feature--item col-md-3 col-xs-6 col-xxs-12">
               <div class="icon">
-                <img src="img/features-img/icon-03.png" alt="" data-rjs="2" />
+                <img src="img/used/Voice-Activated.png" alt="" data-rjs="2" />
               </div>
 
               <div class="title">
@@ -558,7 +594,7 @@
             <!-- Feature Item Start -->
             <div class="feature--item col-md-3 col-xs-6 col-xxs-12">
               <div class="icon">
-                <img src="img/features-img/icon-04.png" alt="" data-rjs="2" />
+                <img src="img/used/Encrypted-Network.png" alt="" data-rjs="2" />
               </div>
 
               <div class="title">
