@@ -10,3 +10,146 @@ Author : themelooks.com
 .w-100{
     width: 100%;
 }
+.banner--form form{
+    background-color: #ffffffad;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px 2px gainsboro;
+}
+.form-group {
+    margin-bottom: 0.3rem;
+}
+.hero-form label{
+    color: #000;
+    font-weight: 500;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.hero-form .form-control{
+    background-color: transparent
+}
+.hero-form .form-control:focus{
+    background-color: #fff;
+}
+
+/* K-About start */
+.K-About{
+    padding: 80px 0 0 0
+}
+.K-box{
+    width: 87%;
+    margin: auto;
+    transform: translateY(-75px);
+    background-color: #fff;
+    padding: 15px 0;
+    transition: all 500ms;
+}
+.K-box:hover{
+    background-color: #ed1c24;
+}
+.K-box h4{
+font-weight: bold;
+}
+.K-box h4, .K-box p{
+    transition: all 500ms;
+}
+.K-box:hover h4, .K-box:hover p{
+    color: white;
+}
+.K-card{
+    padding-top: 15px;
+}
+.K-card img{
+    height: 205px;
+}
+.K-card .K-card-content{
+    background: #fff;
+    padding: 25px;
+    box-shadow: 0px 3px 15px 0px rgb(0 0 0 / 10%);
+}
+.K-About .mt-30{
+    margin-top: 30px;
+}
+.K-About .AboutClevehouse{
+    margin-top: 15px;
+    font-weight: 500;
+}
+.K-About .We-Will-Provide{
+    font-weight: 300;
+}
+@media (min-width:992px){
+    .K-card {
+        display: flex;
+    }
+    .K-cards{
+        display: flex;
+        justify-content: space-between;
+        width: 1170px;
+    }
+}
+.K-cards .K-gray{
+    background-color: #EAEAEA;
+    padding: 30px 20px 15px 30px;
+    position: relative;
+    transition: all 500ms;
+    height: 250px;
+    margin: 30px 15px;
+    overflow: hidden;
+}
+.K-cards .K-red{
+background-color: #ed1c24;
+color: #ffffff;
+}
+.K-cards .K-dark{
+background-color: rgb(36, 36, 36);
+color: #fff;
+}
+.K-cards .K-red h2,.K-cards .K-dark h2{
+    color: #fff;
+}
+.K-cards .K-gray:hover{
+    padding: 0px 20px 15px 30px;
+}
+.K-cards h2{
+    font-size: 20px;
+    font-weight: 700;
+}
+.K-cards p{
+    font-size: 16px;
+}
+.K-cards .img-up1,.K-cards .img-up2{
+    transition: all 500ms;
+}
+.K-cards .K-gray:hover .img-up1{
+    opacity: 0;
+}
+.K-cards .img-up2{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    opacity: 0;
+    transform: translateY(30px) scale(1.5);
+}
+.K-cards .K-gray:hover .img-up2{
+    transform: translateY(0) scale(1.5);
+    opacity: 1;
+} 
+.cta--section{
+    background-image: url(../img/used/banner_02.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0px;
+}
+.cta--section h2{
+    color: #fff;
+}
+.cta--section .btn{
+    background-color: #333;
+    color: #fff;
+    transition: 500ms;
+    border:2px solid transparent;
+}
+.cta--section .btn:hover{
+    background-color: transparent;
+    border:2px solid #333;
+}

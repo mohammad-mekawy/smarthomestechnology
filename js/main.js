@@ -273,7 +273,7 @@ Author : themelooks.com
                 margin: checkData( $t.data('owl-margin'), 0 ),
                 loop: checkData( $t.data('owl-loop'), true ),
                 smartSpeed: 1200,
-                autoplayTimeout: 800,
+                autoplayTimeout: 4000,
                 autoplay: checkData( $t.data('owl-autoplay'), true ),
                 mouseDrag: checkData( $t.data('owl-drag'), true ),
                 nav: checkData( $t.data('owl-nav'), false ),
