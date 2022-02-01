@@ -47,6 +47,9 @@
     <!-- ==== CTAs Stylesheet ==== -->
     <link href="CTAs.css" rel="stylesheet" />
 
+    <!-- ==== flags Stylesheet ==== -->
+    <link href="css/intlTelInput.min.css" rel="stylesheet" />
+
     <!-- ==== Main Stylesheet ==== -->
     <link href="style.css" rel="stylesheet" />
 
@@ -104,15 +107,12 @@
                     <ul class="nav">
                       <li>
                         <div class="icon text--primary">
-                          <i class="fa fa-vcard-o"></i>
+                          <i class="fa fa-phone"></i>
                         </div>
                         <div class="content">
                           <p>
-                            <a href="tel:+971502982989">+971 50 298 2989</a>
-                          </p>
-                          <p>
-                            <a href="mailto:info@smarthomestechnology.com"
-                              >info@smarthomestechnology.com</a
+                            <a href="tel:+971502982989" class="top-bar-contact"
+                              >+971 50 298 2989</a
                             >
                           </p>
                         </div>
@@ -124,8 +124,9 @@
                         <div class="content">
                           <p>
                             <a
+                              class="top-bar-contact"
                               href="https://api.whatsapp.com/send?phone=971502982989&text=Hi,%20I%20would%20like%20to%20know%20more%20about%20your%20smart%20home%20services"
-                              >+971 50 298 2989</a
+                              >Click Here Whatsapp</a
                             >
                           </p>
                         </div>
@@ -182,7 +183,7 @@
             <div id="headerNav" class="navbar-collapse collapse float--left">
               <!-- Header Nav Links Start -->
               <ul class="header--nav-links nav navbar-nav font--secondary">
-                <li class="active"><a href="index.html">Home</a></li>
+                <li class="active"><a href="/">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Pricing</a></li>
@@ -200,58 +201,6 @@
       <div id="banner" class="banner--section pd--80-0">
         <!-- Banner Slider Start -->
         <div class="banner--slider owl-carousel">
-          <!-- Banner Item Start -->
-          <div class="banner--item" data-bg-img="img/used/1.png">
-            <div class="vc--parent">
-              <div class="vc--child">
-                <div class="container">
-                  <div class="row">
-                    <!-- Banner Content Start -->
-                    <div class="banner--content col-md-8">
-                      <h1>
-                        Take ultimate control of <br />
-                        <strong> your home</strong>
-                      </h1>
-
-                      <p>
-                        With our smart home automation products, you can control
-                        each aspect of your house, from your lights and TV to
-                        your Garage door and curtains.
-                      </p>
-                    </div>
-                    <!-- Banner Content End -->
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Banner Item End -->
-          <!-- Banner Item Start -->
-          <div class="banner--item" data-bg-img="img/used/2.png">
-            <div class="vc--parent">
-              <div class="vc--child">
-                <div class="container">
-                  <div class="row">
-                    <!-- Banner Content Start -->
-                    <div class="banner--content col-md-8">
-                      <h1>
-                        Take ultimate control of <br />
-                        <strong> your home</strong>
-                      </h1>
-
-                      <p>
-                        With our smart home automation products, you can control
-                        each aspect of your house, from your lights and TV to
-                        your Garage door and curtains.
-                      </p>
-                    </div>
-                    <!-- Banner Content End -->
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Banner Item End -->
           <!-- Banner Item Start -->
           <div class="banner--item" data-bg-img="img/used/3.png">
             <div class="vc--parent">
@@ -303,7 +252,7 @@
                     <input
                       type="text"
                       class="form-control"
-                      id="Phone"
+                      id="telephone1"
                       aria-describedby="Phone"
                       name="phone"
                       required
@@ -345,176 +294,6 @@
       </div>
       <!-- Banner Section End -->
 
-      <!-- Services Section Start -->
-      <div class="services--section pd--100-0 bg--color-lightgray">
-        <div class="container">
-          <!-- Section Title Start -->
-          <div class="section--title">
-            <h2 class="h2">Why Choose Us?</h2>
-
-            <p>Providing solution for</p>
-            <p>
-              Smart Home Technology has been integrating the most advanced home
-              automation systems in the UAE since 1999. <br />
-              Our technology controls all electrical functions in your home from
-              lighting and sound to curtains <br />
-              and shutters and even includes climate control.
-            </p>
-          </div>
-          <!-- Section Title End -->
-
-          <div class="row text-center">
-            <!-- Service Image Start -->
-            <div class="service--img col-md-4 col-sm-8">
-              <div
-                class="service--img-inner"
-                data-bg-img="img/services-img/service-img-bg.png"
-              >
-                <!-- Tab Content Start -->
-                <div class="tab-content">
-                  <!-- Tab Pane Start -->
-                  <div class="tab-pane active" id="serviceImg01">
-                    <img src="img/services-img/service-img-01.jpg" alt="" />
-                  </div>
-                  <!-- Tab Pane End -->
-
-                  <!-- Tab Pane Start -->
-                  <div class="tab-pane" id="serviceImg02">
-                    <img src="img/services-img/service-img-02.jpg" alt="" />
-                  </div>
-                  <!-- Tab Pane End -->
-
-                  <!-- Tab Pane Start -->
-                  <div class="tab-pane" id="serviceImg03">
-                    <img src="img/services-img/service-img-03.jpg" alt="" />
-                  </div>
-                  <!-- Tab Pane End -->
-
-                  <!-- Tab Pane Start -->
-                  <div class="tab-pane" id="serviceImg04">
-                    <img src="img/services-img/service-img-04.jpg" alt="" />
-                  </div>
-                  <!-- Tab Pane End -->
-                </div>
-                <!-- Tab Content End -->
-              </div>
-            </div>
-            <!-- Service Image End -->
-
-            <!-- Service Items Start -->
-            <div class="service--items col-md-4 col-sm-6 text-right">
-              <!-- Service Item Start -->
-              <div class="service--item active">
-                <div
-                  class="dot"
-                  data-position-top="16px"
-                  data-position-right="-129px"
-                ></div>
-
-                <h3 class="h3">
-                  <a href="#" data-toggle="tab" data-target="#serviceImg01"
-                    >Villa</a
-                  >
-                </h3>
-
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s.
-                </p>
-
-                <a href="#" class="btn btn-default">View Details</a>
-              </div>
-              <!-- Service Item End -->
-
-              <!-- Service Item Start -->
-              <div class="service--item">
-                <div
-                  class="dot"
-                  data-position-top="13px"
-                  data-position-right="-54px"
-                ></div>
-
-                <h3 class="h3">
-                  <a href="#" data-toggle="tab" data-target="#serviceImg02"
-                    >Apartment
-                  </a>
-                </h3>
-
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s.
-                </p>
-
-                <a href="#" class="btn btn-default">View Details</a>
-              </div>
-              <!-- Service Item End -->
-            </div>
-            <!-- Service Items End -->
-
-            <!-- Service Items Start -->
-            <div class="service--items col-md-4 col-sm-6 float--right">
-              <!-- Service Item Start -->
-              <div class="service--item">
-                <div
-                  class="dot"
-                  data-position-top="16px"
-                  data-position-left="-129px"
-                ></div>
-
-                <h3 class="h3">
-                  <a href="#" data-toggle="tab" data-target="#serviceImg03"
-                    >Building</a
-                  >
-                </h3>
-
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s.
-                </p>
-
-                <a href="#" class="btn btn-default">View Details</a>
-              </div>
-              <!-- Service Item End -->
-
-              <!-- Service Item Start -->
-              <div class="service--item">
-                <div
-                  class="dot"
-                  data-position-top="13px"
-                  data-position-left="-54px"
-                ></div>
-
-                <h3 class="h3">
-                  <a href="#" data-toggle="tab" data-target="#serviceImg04"
-                    >Hotel</a
-                  >
-                </h3>
-
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s.
-                </p>
-
-                <a href="#" class="btn btn-default">View Details</a>
-              </div>
-              <!-- Service Item End -->
-            </div>
-            <!-- Service Items End -->
-          </div>
-
-          <!-- Section Footer Start -->
-          <div class="section--footer text-center">
-            <a href="#" class="btn btn-default">View All Services</a>
-          </div>
-          <!-- Section Footer End -->
-        </div>
-      </div>
-      <!-- Services Section End -->
-
       <!-- About section start -->
       <div class="K-About">
         <div class="container">
@@ -524,27 +303,26 @@
                 <img src="img/used/about1.jpg" alt="" />
                 <div class="K-box text-center">
                   <h4>Managed Centrally</h4>
-                  <p>Lorem ipsum dolor sit amet consectetur.</p>
                 </div>
               </div>
               <div class="col-md-6">
                 <img src="img/used/about2.jpg" class="mt-30" alt="" />
                 <div class="K-box text-center">
-                  <h4>Home Control</h4>
-                  <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  <h4>Full House Control</h4>
                 </div>
               </div>
             </div>
             <div class="col-md-6">
-              <h4 class="AboutClevehouse">About Clevehouse</h4>
+              <h4 class="AboutClevehouse">About Smart homes technology</h4>
               <h2 class="We-Will-Provide">
-                We Will Provide <br />
-                <strong>Convenience</strong> In Your Home
+                Providing solution for Villa | Apartment | Building | Hotel
               </h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam.
+                Smart Home Technology has been integrating the most advanced
+                home automation systems in the UAE since 1999. Our technology
+                controls all electrical functions in your home from lighting and
+                sound to curtains and shutters and even includes climate
+                control.
               </p>
               <div class="K-card">
                 <img src="img/used/about3.jpg" alt="" />
@@ -566,10 +344,6 @@
                 alt=""
               />
               <h2>Wirelessly Smart</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt sed do eiusmod.
-              </p>
               <img
                 src="img/used/Curated-Solutions.png"
                 class="img-up2"
@@ -582,11 +356,7 @@
                 class="img-up1"
                 alt=""
               />
-              <h2>Wirelessly Smart</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt sed do eiusmod.
-              </p>
+              <h2>24x7 Monitoring</h2>
               <img
                 src="img/used/Curated-Solutions.png"
                 class="img-up2"
@@ -599,11 +369,7 @@
                 class="img-up1"
                 alt=""
               />
-              <h2>Wirelessly Smart</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt sed do eiusmod.
-              </p>
+              <h2>Smart Lock</h2>
               <img
                 src="img/used/Curated-Solutions.png"
                 class="img-up2"
@@ -621,8 +387,6 @@
           <!-- Section Title Start -->
           <div class="section--title">
             <h2 class="h2">Why Choose Us</h2>
-
-            <p>Some of Our Features</p>
           </div>
           <!-- Section Title End -->
 
@@ -710,10 +474,7 @@
       <!-- Features Section End -->
 
       <!-- Counter Section Start -->
-      <div
-        class="counter--section pd--100-0-40"
-        data-bg-img="img/counter-img/bg.jpg"
-      >
+      <div class="counter--section pd--100-0-40">
         <div class="container">
           <div class="row">
             <!-- Counter Item Start -->
@@ -723,8 +484,8 @@
               </div>
 
               <div class="info">
-                <h2 class="title h4 font--primary">Happy Clients</h2>
-                <h3 class="number h2">
+                <h2 class="title h4 font--primary text-white">Happy Clients</h2>
+                <h3 class="number h2 text-white">
                   <span data-counter-up="numbers">94816</span>
                 </h3>
               </div>
@@ -738,8 +499,10 @@
               </div>
 
               <div class="info">
-                <h2 class="title h4 font--primary">Completed Deals</h2>
-                <h3 class="number h2">
+                <h2 class="title h4 font--primary text-white">
+                  Completed Deals
+                </h2>
+                <h3 class="number h2 text-white">
                   <span data-counter-up="numbers">102370</span>
                 </h3>
               </div>
@@ -753,8 +516,10 @@
               </div>
 
               <div class="info">
-                <h2 class="title h4 font--primary">Running Procet</h2>
-                <h3 class="number h2">
+                <h2 class="title h4 font--primary text-white">
+                  Running Procet
+                </h2>
+                <h3 class="number h2 text-white">
                   <span data-counter-up="numbers">579</span>
                 </h3>
               </div>
@@ -768,8 +533,8 @@
               </div>
 
               <div class="info">
-                <h2 class="title h4 font--primary">Award Winning</h2>
-                <h3 class="number h2">
+                <h2 class="title h4 font--primary text-white">Award Winning</h2>
+                <h3 class="number h2 text-white">
                   <span data-counter-up="numbers">3226</span>
                 </h3>
               </div>
@@ -781,12 +546,15 @@
       <!-- Counter Section End -->
 
       <!-- Testimonial Section Start -->
-      <div class="testimonial--section pd--100-0" data-bg-img="img/used/1.png">
+      <div
+        class="testimonial--section pd--100-0 text-center"
+        data-bg-img="img/used/1.png"
+      >
         <!-- Testimonial Slider Wrapper Start -->
         <div class="testimonial--slider-wrapper bg--overlay">
           <div class="container">
             <!-- Section Title Start -->
-            <div class="section--title left">
+            <div class="section--title">
               <h2 class="h2">Satisfied Client’s</h2>
 
               <p>What Our Client’s Say</p>
@@ -794,7 +562,7 @@
             <!-- Section Title End -->
 
             <div class="row">
-              <div class="col-md-6">
+              <div class="">
                 <!-- Testimonial Slider Start -->
                 <div class="testimonial--slider owl-carousel">
                   <!-- Testimonial Item Start -->
@@ -903,7 +671,7 @@
               <div class="container-fluid">
                 <div class="col-md-6 col-md-offset-6">
                   <!-- Testimonial Video Content Start -->
-                  <div class="testimonial--video-content text-center">
+                  <!-- <div class="testimonial--video-content text-center">
                     <a
                       href="https://www.youtube.com/watch?v=tTT9g2C1nrY"
                       class="play-btn"
@@ -912,7 +680,7 @@
                     ></a>
 
                     <h3 class="h3">Watch Video Tour</h3>
-                  </div>
+                  </div> -->
                   <!-- Testimonial Video Content End -->
                 </div>
               </div>
@@ -923,6 +691,106 @@
       </div>
       <!-- Testimonial Section End -->
 
+      <!-- Gallery Section Start -->
+      <div class="gallery--section pd--100-0">
+        <div class="container">
+          <!-- Section Title Start -->
+          <div class="section--title">
+            <h2 class="h2">Projects From Gallery</h2>
+
+            <p>Checkout Our Portfolio</p>
+          </div>
+          <!-- Section Title End -->
+
+          <!-- About Gallery Start -->
+          <div class="col-md-2">
+            <div class="about--gallery pb--60">
+              <div class="about--gallery-video bg--overlay">
+                <img src="img/used/1.png" alt="" data-rjs="2" />
+
+                <a
+                  href="https://www.youtube.com/watch?v=ZfE0N-pG3mY"
+                  class="play-btn"
+                  data-popup="video"
+                  ><i class="fa fa-play"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="about--gallery pb--60">
+              <div class="about--gallery-video bg--overlay">
+                <img src="img/used/1.png" alt="" data-rjs="2" />
+
+                <a
+                  href="https://www.youtube.com/watch?v=ZfE0N-pG3mY"
+                  class="play-btn"
+                  data-popup="video"
+                  ><i class="fa fa-play"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="about--gallery pb--60">
+              <div class="about--gallery-video bg--overlay">
+                <img src="img/used/1.png" alt="" data-rjs="2" />
+
+                <a
+                  href="https://www.youtube.com/watch?v=ZfE0N-pG3mY"
+                  class="play-btn"
+                  data-popup="video"
+                  ><i class="fa fa-play"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="about--gallery pb--60">
+              <div class="about--gallery-video bg--overlay">
+                <img src="img/used/1.png" alt="" data-rjs="2" />
+
+                <a
+                  href="https://www.youtube.com/watch?v=ZfE0N-pG3mY"
+                  class="play-btn"
+                  data-popup="video"
+                  ><i class="fa fa-play"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="about--gallery pb--60">
+              <div class="about--gallery-video bg--overlay">
+                <img src="img/used/1.png" alt="" data-rjs="2" />
+
+                <a
+                  href="https://www.youtube.com/watch?v=ZfE0N-pG3mY"
+                  class="play-btn"
+                  data-popup="video"
+                  ><i class="fa fa-play"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="about--gallery pb--60">
+              <div class="about--gallery-video bg--overlay">
+                <img src="img/used/1.png" alt="" data-rjs="2" />
+
+                <a
+                  href="https://www.youtube.com/watch?v=ZfE0N-pG3mY"
+                  class="play-btn"
+                  data-popup="video"
+                  ><i class="fa fa-play"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <!-- About Gallery End -->
+        </div>
+      </div>
+      <!-- Gallery Section End -->
       <!-- Call To Action Section Start -->
       <div class="cta--section">
         <div class="container">
@@ -936,7 +804,7 @@
                 </h2>
               </div>
               <div class="cta--btn">
-                <a href="#banner" class="btn">Request A Free Quote </a>
+                <a class="btn footer-cta">Request A Free Quote </a>
               </div>
               <!-- Call To Action Content Start -->
             </div>
@@ -988,7 +856,6 @@
                 <input
                   type="text"
                   name="quickNum"
-                  id="telephone3"
                   class="form-control txt-call-phone swing flags"
                   minlength="8"
                   maxlength="16"
@@ -1047,10 +914,11 @@
                 <label for="user_phone">Phone Number</label>
                 <input
                   required
-                  id="user_phone"
+                  id="telephone2"
                   name="phone"
                   maxlength="12"
                   type="tel"
+                  class="pl-45"
                 />
               </div>
               <div class="col-md-6 pl-lg-0 popup-submit-btn">
@@ -1112,10 +980,11 @@
                 <label for="calllater_tel">Phone Number</label>
                 <input
                   required
-                  id="calllater_tel"
+                  id="telephone3"
                   name="phone"
                   maxlength="12"
                   type="tel"
+                  class="pl-45"
                 />
               </div>
               <div class="col-md-6 popup-submit-btn">
@@ -1151,7 +1020,13 @@
               <div class="col-md-6">
                 <div class="form-group w-100">
                   <label for="leave_tel">Phone Number</label>
-                  <input required id="leave_tel" type="tel" name="phone" />
+                  <input
+                    required
+                    id="telephone4"
+                    type="tel"
+                    name="phone"
+                    class="pl-45"
+                  />
                 </div>
                 <div class="form-group w-100">
                   <label for="leave_email"> Your Email</label>
@@ -1196,7 +1071,7 @@
               <input
                 type="text"
                 name="phone"
-                id="telephone3"
+                id="telephone5"
                 class="form-control txt-call-phone swing flags mb-3"
                 minlength="8"
                 maxlength="16"
@@ -1267,6 +1142,9 @@
 
     <!-- ==== CTAs JavaScript ==== -->
     <script src="js/CTAs.js"></script>
+
+    <!-- ==== flags JavaScript ==== -->
+    <script src="js/intlTelInput.min.js"></script>
 
     <!-- ==== Main JavaScript ==== -->
     <script src="js/main.js"></script>
