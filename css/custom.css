@@ -20,6 +20,7 @@ Author : themelooks.com
 }
 .header--nav-links > li > a{
     color: #000;
+    font-weight: 500;
 }
 .top-bar-contact{
     font-size: 16px;
