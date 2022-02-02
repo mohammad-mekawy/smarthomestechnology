@@ -62,9 +62,6 @@ Author : themelooks.com
     width: 100%;
     z-index: 2;
 }
-.banner--section{
-    height: 95vh;
-}
 .banner--form form{
     background-color: #ffffffd4;
     border-radius: 5px;
@@ -76,7 +73,10 @@ Author : themelooks.com
     }
     .pl-120{
         padding-left: 120px;
-}
+    }
+    .banner--section{
+        height: 95vh;
+    }
 }
 @media(max-width:992px){
     .hd-mob{
