@@ -11,11 +11,20 @@ Author : themelooks.com
     color: #fff;
 }
 .header--navbar-top-info .icon{
-    font-size: 35px;
+    font-size: 25px;
+}
+.header--navbar-top-btn{
+    position: relative;
+    z-index: 2;
+    margin-top: -5px;
+}
+.header--nav-links > li > a{
+    color: #000;
 }
 .top-bar-contact{
-    font-size: 20px;
+    font-size: 16px;
     line-height: 30px;
+    color: #000;
 }
 .pl-45{
     padding-left: 45px !important;
@@ -23,13 +32,58 @@ Author : themelooks.com
 .m-t-15{
     margin-top: 15px;
 }
+.pt-15{
+    padding-top: 15px;
+}
+.hd{
+    display: none;
+}
 .w-100{
     width: 100%;
+}
+.logo img{
+    width: 145px;
+}
+.header--nav-links > li > a{
+    border: 0;
+}
+.header--navbar{
+    background-color: rgb(255, 255, 255,.5);
+    transition: all 500ms;
+}
+.is-sticky .header--navbar{
+    background-color: #fff;
+}
+.header--section{
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+.banner--section{
+    height: 95vh;
 }
 .banner--form form{
     background-color: #ffffffd4;
     border-radius: 5px;
     box-shadow: 0px 1px 2px 2px gainsboro;
+}
+@media(min-width:992px){
+    .banner--form form{
+        margin-top: 10vh;
+    }
+    .pl-120{
+        padding-left: 120px;
+}
+}
+@media(max-width:992px){
+    .hd-mob{
+        display: none;
+    }
+    .header--navbar .navbar-header{
+        float: right;
+    }
 }
 .form-group {
     margin-bottom: 0.3rem;
