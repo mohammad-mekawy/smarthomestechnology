@@ -43,13 +43,17 @@ Author : themelooks.com
     width: 100%;
 }
 .logo img{
-    width: 145px;
+    width: 100px;
+    padding-top: 10px;
+}
+.sec-logo img{
+    width: 70px;
 }
 .header--nav-links > li > a{
     border: 0;
 }
 .header--navbar{
-    background-color: rgb(255, 255, 255,.5);
+    background-color: rgb(255, 255, 255,.7);
     transition: all 500ms;
 }
 .is-sticky .header--navbar{
@@ -62,17 +66,43 @@ Author : themelooks.com
     width: 100%;
     z-index: 2;
 }
-.banner--form form{
-    background-color: #ffffffd4;
+.banner--slider{
+background-image: url(../img/used/Banner-image-Smarthomes.jpg);
+background-position: left;
+background-size: cover;
+background-blend-mode: multiply;
+background-color: rgb(255, 255, 255,.7);
+}
+.banner--content {
+    margin-top: 66px;
+    margin-bottom: 40px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 64px;
+    background: rgb(255, 255, 255,.7);
     border-radius: 5px;
-    box-shadow: 0px 1px 2px 2px gainsboro;
+    transition: all 500ms;
+    box-shadow: 0px 1px 7px 4px rgb(142 142 142);
+}
+.banner--content:hover,.banner--form form:hover{
+    background-color: #ffffff;
+    box-shadow: 0 0 0 0 rgb(142 142 142);
+}
+.banner--content p{
+    color: #000;
+}
+.banner--form form{
+    background-color: rgb(255, 255, 255,.7);
+    border-radius: 5px;
+    box-shadow: 0px 1px 7px 4px rgb(142 142 142);
+    transition: all 500ms;
 }
 @media(min-width:992px){
     .banner--form form{
         margin-top: 10vh;
     }
     .pl-120{
-        padding-left: 120px;
+        padding-left: 80px;
     }
     .banner--section{
         height: 95vh;
@@ -96,12 +126,17 @@ Author : themelooks.com
     margin-top: 10px;
 }
 .hero-form .form-control{
-    background-color: transparent
+    background-color: rgb(255, 255, 255,.7);
 }
 .hero-form .form-control:focus{
     background-color: #fff;
 }
-
+/* feature start */
+/* @media(max-width:992px){
+    .feature--item {
+        transform: translateX(50%);
+    }
+} */
 /* K-About start */
 .K-About{
     padding: 80px 0 0 0
@@ -130,8 +165,10 @@ font-weight: bold;
 .K-card{
     padding-top: 15px;
 }
-.K-card img{
-    height: 205px;
+@media(min-width:992px){
+    .K-card img{
+        height: 205px;
+    }
 }
 .K-card .K-card-content{
     background: #fff;
