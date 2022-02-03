@@ -74,7 +74,7 @@ background-blend-mode: multiply;
 background-color: rgb(255, 255, 255,.7);
 }
 .banner--content {
-    margin-top: 66px;
+    margin-top: 10vh;
     margin-bottom: 40px;
     padding-top: 10px;
     padding-left: 15px;
