@@ -88,26 +88,21 @@ background-color: rgb(174 174 174);
     background-color: #ffffff;
     box-shadow: 0 0 0 0 rgb(142 142 142);
 }
-.banner--content h1,.banner--content p{
-    color: #fff;
-    margin-bottom: 0;
-}
 .banner--content h1{
-    font-size: 36px;
-}
-.banner--content p{
-    font-size: 18px;
+    font-size: 30px;
+    line-height: 1;
+    margin-bottom: 0;
 }
 .banner--form form{
     background-color: rgb(255, 255, 255,.7);
     border-radius: 5px;
     box-shadow: 0px 1px 7px 4px rgb(142 142 142);
     transition: all 500ms;
-    width: 80%;
 }
 @media(min-width:992px){
     .banner--form form{
         margin-top: 10vh;
+        width: 68%;
     }
     .pl-120{
         padding-left: 80px;
