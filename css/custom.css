@@ -71,31 +71,32 @@ background-image: url(../img/used/Banner-image-Smarthomes.jpg);
 background-position: left;
 background-size: cover;
 background-blend-mode: multiply;
-background-color: rgb(255, 255, 255,.7);
+background-color: rgb(174 174 174);
 }
 .banner--content {
-    margin-top: 10vh;
-    margin-bottom: 40px;
-    padding-top: 10px;
-    padding-left: 15px;
-    padding-bottom: 64px;
-    background: rgb(255, 255, 255,.7);
+    margin-top: 0vh;
+    margin-bottom: 0px;
+    padding-top: 10vh;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    background: rgb(255, 255, 255,.0);
     border-radius: 5px;
     transition: all 500ms;
-    box-shadow: 0px 1px 7px 4px rgb(142 142 142);
+    box-shadow: 0px 1px 7px 4px rgba(142, 142, 142, 0);
 }
-.banner--content:hover,.banner--form form:hover{
+.banner--form form:hover{
     background-color: #ffffff;
     box-shadow: 0 0 0 0 rgb(142 142 142);
 }
-.banner--content p{
-    color: #000;
+.banner--content h1,.banner--content p{
+    color: #fff;
 }
 .banner--form form{
     background-color: rgb(255, 255, 255,.7);
     border-radius: 5px;
     box-shadow: 0px 1px 7px 4px rgb(142 142 142);
     transition: all 500ms;
+    width: 80%;
 }
 @media(min-width:992px){
     .banner--form form{
@@ -139,7 +140,7 @@ background-color: rgb(255, 255, 255,.7);
 } */
 /* K-About start */
 .K-About{
-    padding: 80px 0 0 0
+    padding: 0
 }
 .K-box{
     width: 87%;
