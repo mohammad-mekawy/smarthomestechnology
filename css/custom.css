@@ -199,27 +199,31 @@ font-weight: bold;
     padding-top: 30px;
 }
 .K-cards .K-gray{
-    background-color: #EAEAEA;
+    background-color: #909090de;
+    background-image: url(../img/used/SmartCurtain.jpg);
     padding: 30px 20px 15px 30px;
     position: relative;
     transition: all 500ms;
     height: 250px;
     margin: 60px 15px;
     overflow: hidden;
+    background-blend-mode: multiply;
 }
 .K-cards .K-red{
-background-color: #ed1c24;
-color: #ffffff;
+background-image: url(../img/used/SmartDimmer.jpg);
 }
 .K-cards .K-dark{
-background-color: rgb(36, 36, 36);
-color: #fff;
+background-image: url(../img/used/SmartDoor.jpg);
 }
-.K-cards .K-red h2,.K-cards .K-dark h2{
+.K-cards h2{
     color: #fff;
 }
 .K-cards .K-gray:hover{
     padding: 0px 20px 15px 30px;
+    background-color: transparent;
+}
+.K-cards .K-gray:hover h2{
+opacity: 0;
 }
 .K-cards h2{
     font-size: 20px;
