@@ -76,7 +76,7 @@ background-color: rgb(174 174 174);
 .banner--content {
     margin-top: 0vh;
     margin-bottom: 0px;
-    padding-top: 10vh;
+    padding-top: 0vh;
     padding-left: 0px;
     padding-bottom: 0px;
     background: rgb(255, 255, 255,.0);
@@ -90,6 +90,7 @@ background-color: rgb(174 174 174);
 }
 .banner--content h1,.banner--content p{
     color: #fff;
+    margin-bottom: 0;
 }
 .banner--form form{
     background-color: rgb(255, 255, 255,.7);
