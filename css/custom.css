@@ -275,6 +275,7 @@ opacity: 0;
 /* counter--section start */
 .counter--section{
     background-color: #ed1c24;
+    margin-bottom: 60px;
 }
 /* testimonial */
 .testimonial--rating, .testimonial--info{
