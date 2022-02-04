@@ -92,8 +92,11 @@ background-color: rgb(174 174 174);
     color: #fff;
     margin-bottom: 0;
 }
+.banner--content h1{
+    font-size: 36px;
+}
 .banner--content p{
-    font-size: 22px;
+    font-size: 18px;
 }
 .banner--form form{
     background-color: rgb(255, 255, 255,.7);
