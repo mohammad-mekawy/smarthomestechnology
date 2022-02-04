@@ -7,6 +7,9 @@ Version: 1.3
 Author : themelooks.com
 
 */
+html{
+    scroll-behavior: smooth;
+}
 .text-white{
     color: #fff;
 }
@@ -135,6 +138,9 @@ background-color: rgb(174 174 174);
     background-color: #fff;
 }
 /* feature start */
+.features--section{
+    padding-bottom: 0;
+}
 /* @media(max-width:992px){
     .feature--item {
         transform: translateX(50%);
@@ -142,7 +148,8 @@ background-color: rgb(174 174 174);
 } */
 /* K-About start */
 .K-About{
-    padding: 0
+    padding: 40px 0 0;
+    /* margin-top: -60; */
 }
 .K-box{
     width: 87%;
