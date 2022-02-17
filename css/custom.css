@@ -15,6 +15,10 @@ html{
 }
 .header--navbar-top-info .icon{
     font-size: 25px;
+    margin-left: 15px;
+}
+.li-phone{
+    margin-left: 0 !important;
 }
 .header--navbar-top-btn{
     position: relative;
@@ -45,6 +49,9 @@ html{
 .w-100{
     width: 100%;
 }
+.logo{
+    transform: translateX(100%);
+}
 .logo img{
     width: 100px;
     padding-top: 10px;
@@ -70,11 +77,9 @@ html{
     z-index: 2;
 }
 .banner--slider{
-background-image: url(../img/used/Banner-image-Smarthomes.jpg);
+background-image: url(../img/used/Banner-image-Smarthomes.png);
 background-position: left;
 background-size: cover;
-background-blend-mode: multiply;
-background-color: rgb(174 174 174);
 }
 .banner--content {
     margin-top: 0vh;
