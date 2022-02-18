@@ -57,7 +57,7 @@ html{
     padding-top: 10px;
 }
 .sec-logo img{
-    width: 70px;
+    width: 65px;
 }
 .header--nav-links > li > a{
     border: 0;
@@ -110,7 +110,7 @@ background-size: cover;
 @media(min-width:992px){
     .banner--form form{
         margin-top: 10vh;
-        width: 68%;
+        width: 90%;
     }
     .pl-120{
         padding-left: 80px;
